@@ -1,0 +1,103 @@
+/* /* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-6">
+        {employees.map((employee, index) => (
+          <div
+            key={index}
+            className="border p-6 rounded-lg shadow-md bg-white text-center flex flex-col items-center"
+          >
+            <div className="w-24 h-24 rounded-full bg-gray-300 mb-4 flex items-center justify-center">
+              <span className="text-gray-600 text-lg font-semibold">Photo</span>
+            </div>
+            <h3 className="font-bold text-xl mb-2">
+              {employee.firstname} {employee.lastname}
+            </h3>
+
+            <div className="flex items-center mb-2">
+              <GrView className="text-gray-500 mr-2" />
+              <p className="text-gray-500">{employee.email}</p>
+            </div>
+
+            <div className="flex justify-between items-center w-full mb-4">
+              <div className="text-center flex-1">
+                <MdModeEdit className="inline-block text-gray-500 mr-2" />
+                <p className="text-2xl font-bold">{employee.designation}</p>
+                <p className="text-gray-500 text-sm">Designation</p>
+              </div>
+              <div className="text-center flex-1">
+                <MdDelete className="inline-block text-gray-500 mr-2" />
+                <p className="text-2xl font-bold">{employee.department}</p>
+                <p className="text-gray-500 text-sm">Department</p>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-center w-full mb-2">
+              <div className="text-center flex-1">
+                <p className="text-2xl font-bold">{employee.dateofjoining}</p>
+                <p className="text-gray-500 text-sm">Date of Joining</p>
+              </div>
+              <div className="text-center flex-1">
+                <p className="text-2xl font-bold">{employee.salary}</p>
+                <p className="text-gray-500 text-sm">Salary</p>
+              </div>
+            </div>
+
+            <div className="flex justify-end space-x-4 mt-4">
+              <button className="text-green-500 hover:text-green-700">
+                <MdModeEdit />
+              </button>
+              <button className="text-red-500 hover:text-red-700">
+                <MdDelete />
+              </button>
+            </div>
+          </div>
+        ))}
+      </div> */
+
+
+
+      /* [
+  {
+    firstname: "John",
+    lastname: "Doe",
+    email: "john.doe@example.com",
+    department: "Engineering",
+    designation: "Software Engineer",
+    dateofjoining: "2020-03-15",
+    salary: "75000",
+  },
+  {
+    firstname: "Jane",
+    lastname: "Smith",
+    email: "jane.smith@example.com",
+    department: "Marketing",
+    designation: "Marketing Manager",
+    dateofjoining: "2018-06-20",
+    salary: "68000",
+  },
+  {
+    firstname: "Robert",
+    lastname: "Brown",
+    email: "robert.brown@example.com",
+    department: "Human Resources",
+    designation: "HR Specialist",
+    dateofjoining: "2019-11-05",
+    salary: "55000",
+  },
+  {
+    firstname: "Emily",
+    lastname: "Davis",
+    email: "emily.davis@example.com",
+    department: "Sales",
+    designation: "Sales Executive",
+    dateofjoining: "2021-01-12",
+    salary: "62000",
+  },
+  {
+    firstname: "Michael",
+    lastname: "Wilson",
+    email: "michael.wilson@example.com",
+    department: "Finance",
+    designation: "Financial Analyst",
+    dateofjoining: "2017-09-18",
+    salary: "72000",
+  },
+]; */ 
